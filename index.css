@@ -1,0 +1,684 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: rgb(255, 212, 20);
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 0 50px;
+}
+
+.logo {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
+}
+
+.links {
+    display: flex;
+    gap: 80px;
+}
+
+.knopochka {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+}
+
+a {
+    background-color: aliceblue;
+    border-radius: 10px;
+    border-style: dotted;
+    font-family: 'Impact';
+    font-size: 30px;
+    color: rgb(54, 151, 175);
+    box-shadow: 5px 5px;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    transition: transform 0.3s ease;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+main {
+    width: 100%;
+}
+
+.video {
+    background-color: rgb(235, 149, 178);
+    display: flex;
+    gap: 100px;
+    padding-left: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {
+    background-color: rgb(231, 83, 132);
+    padding: 36px;
+
+}
+
+.textik2 {
+    all: revert;
+}
+
+.about {
+    width: 800px;
+}
+
+.about2 {
+    all: unset;
+}
+
+.name_of_column {
+    color: black;
+    font-size: 20px;
+}
+
+.photos {
+    background-color: rgba(35, 36, 37, 0.897);
+    display: flex;
+    padding: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom {
+    box-shadow: 5px 7px;
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+}
+
+.bottom:hover {
+    transform: scale(1.2);
+}
+
+.marry_go_round {
+    width: 670px;
+    padding-left: 70px;
+    transition: transform 0.3s ease;
+}
+
+.marry_go_round:hover {
+    transform: scale(1.2);
+}
+
+.chars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+    column-gap: 40px;
+    margin-left: 70px;
+
+}
+
+.bottomsmallpic {
+    box-shadow: 5px 7px;
+    border-radius: 7px;
+    transition: transform 0.3s ease;
+}
+
+.bottomsmallpic:hover {
+    transform: scale(1.2);
+}
+
+footer {
+    background-color: rgb(255, 212, 20);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+h2 {
+    margin-top: 15px;
+    color: rgb(69, 71, 72);
+    padding-left: 30px;
+}
+
+.webfo {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+
+.knopochki_snizy {
+    display: flex;
+    gap: 40px;
+}
+
+.webfolink {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-style: dotted;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: rgb(69, 71, 72);
+    box-shadow: 5px 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    transition: transform 0.3s ease;
+}
+
+.webfolink:hover {
+    transform: scale(1.2);
+}
+
+p {
+    color: rgb(69, 71, 72);
+    padding-left: 30px;
+}
+
+h5 {
+    color: rgb(69, 71, 72);
+    padding-left: 30px;
+}
+
+h3 {
+    color: rgb(69, 71, 72);
+}
+
+.forma {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+    justify-content: center;
+    margin: auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: rgb(34, 35, 35);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    height: 35px;
+}
+
+button:hover {
+    background-color: rgb(231, 83, 132);
+}
+
+@media(max-width: 1800px) {
+    .bottom {
+        width: 350px;
+    }
+
+    .bottomsmallpic {
+        width: 200px;
+    }
+}
+
+@media(max-width: 1690px) {
+    .bottom {
+        width: 300px;
+    }
+
+    .bottomsmallpic {
+        width: 180px;
+    }
+
+    .marry_go_round {
+        width: 520px;
+    }
+}
+
+@media(max-width: 1507px) {
+    .bottom {
+        width: 280px;
+    }
+
+    .bottomsmallpic {
+        width: 170px;
+    }
+}
+
+@media(max-width: 1480px) {
+    .knopochka {
+        gap: 50px;
+    }
+
+    .links {
+        width: 80px;
+        height: 50px;
+        gap: 50px;
+    }
+
+    .photos {
+        flex-wrap: wrap;
+    }
+
+    .chars {
+        order: 1;
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+    .bottom {
+        width: 400px;
+    }
+
+    .marry_go_round {
+        width: 510px;
+    }
+
+    .bottomsmallpic {
+        width: 307px;
+    }
+}
+
+@media(max-width: 1300px) {
+    .knopochka {
+        gap: 40px;
+    }
+
+    .links {
+        width: 100px;
+        height: 40px;
+        gap: 40px;
+    }
+
+    a {
+        font-size: 26px;
+    }
+
+    header {
+        gap: 90px;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+    .webfolink {
+        font-size: 26px;
+    }
+}
+
+@media(max-width: 1154px) {
+    .knopochka {
+        gap: 30px;
+    }
+
+    .links {
+        gap: 30px;
+        width: 90px;
+        height: 35px;
+        margin-top: 10px;
+        margin-bottom: 6px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    header {
+        gap: 80px;
+    }
+
+    header img {
+        width: 120px;
+    }
+
+    .bottom {
+        width: 350px;
+    }
+
+    .bottomsmallpic {
+        width: 270px;
+    }
+
+    .webfo {
+        gap: 30px;
+    }
+}
+
+@media(max-width: 1045px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .knopochka {
+        gap: 50px;
+    }
+
+    .links {
+        gap: 50px;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .video {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .video iframe {
+        margin-top: 20px;
+    }
+
+    .info {
+        display: flex;
+        align-items: center;
+        gap: 90px;
+        height: 150px;
+        width: 600px;
+    }
+
+    .bottom {
+        width: 300px;
+    }
+
+    .marry_go_round {
+        width: 400px;
+    }
+
+    .bottomsmallpic {
+        width: 230px;
+    }
+
+    .webfolink {
+        font-size: 25px;
+        height: 78px;
+    }
+}
+
+@media(max-width: 926px) {
+    header {
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 200px;
+        height: 110px;
+    }
+
+    .knopochka {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .links {
+        gap: 40px;
+        flex-direction: row;
+        margin-bottom: 10px;
+    }
+
+    .video {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .video iframe {
+        margin-top: 20px;
+    }
+
+    .about {
+        width: 700px;
+    }
+
+    .info {
+        height: 160px;
+        width: 600px;
+    }
+
+    .bottom {
+        width: 270px;
+    }
+
+    .marry_go_round {
+        width: 300px;
+    }
+
+    .bottomsmallpic {
+        width: 200px;
+    }
+
+    .webfolink {
+        font-size: 21px;
+        height: 65px;
+    }
+}
+
+@media(max-width: 840px) {
+    .bottom {
+        width: 250px;
+    }
+
+    .webfo {
+        gap: 50px;
+    }
+
+    .webfolink {
+        font-size: 15px;
+        height: 50px;
+        width: 120px;
+    }
+
+    .marry_go_round {
+        width: 360px;
+    }
+}
+
+@media(max-width: 816px) {
+    .bottom {
+        width: 230px;
+    }
+
+    .marry_go_round {
+        width: 340px;
+    }
+
+    .bottomsmallpic {
+        width: 200px;
+    }
+}
+
+@media(max-width: 799px) {
+    .video iframe {
+        margin-top: 20px;
+        width: 500px;
+    }
+
+    .about {
+        width: 500px;
+        font-size: 15px;
+    }
+
+    .about h1 {
+        font-size: 20px;
+    }
+
+    .info {
+        height: 100px;
+        width: 500px;
+        font-size: 13px;
+    }
+
+    .info h3 {
+        font-size: 17px;
+    }
+
+    .photos {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    .chars {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bottom {
+        width: 400px;
+    }
+
+    .marry_go_round {
+        width: 400px;
+        padding-left: 7px;
+    }
+
+    .bottomsmallpic {
+        width: 250px;
+    }
+
+    .webfo {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .knopochki_snizy {
+        margin-left: 40px;
+    }
+}
+
+@media(max-width: 620px) {
+    header {
+        height: 90px;
+        gap: 150px;
+    }
+
+    header img {
+        width: 90px;
+    }
+
+    a {
+        font-size: 13px;
+    }
+
+    .video iframe {
+        width: 350px;
+        height: 200px;
+    }
+
+    .about {
+        width: 320px;
+        font-size: 12px;
+    }
+
+    .about h1 {
+        font-size: 18px;
+    }
+
+    .info {
+        padding-left: 10px;
+        height: 100px;
+        width: 400px;
+    }
+
+    .info h3 {
+        font-size: 14px;
+    }
+
+    .bottomsmallpic {
+        width: 200px;
+    }
+}
+
+@media(max-width: 535px) {
+    .chars {
+        grid-template-columns: 1fr;
+    }
+
+    .bottomsmallpic {
+        width: 400px;
+    }
+}
+
+@media(max-width: 515px) {
+    header {
+        gap: 20px;
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+    }
+
+    .links {
+        gap: 20px;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+
+    .video {
+        padding-left: 30px;
+    }
+
+    .video iframe {
+        width: 300px;
+        height: 160px;
+    }
+
+    .info {
+        gap: 30px;
+        height: 100px;
+        width: 360px;
+    }
+
+    .bottom {
+        width: 300px;
+    }
+
+    .marry_go_round {
+        width: 300px;
+    }
+
+    .bottomsmallpic {
+        width: 300px;
+    }
+
+    .knopochki_snizy {
+        gap: 10px;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 388px) {
+    .video iframe {
+        width: 240px;
+        height: 160px;
+    }
+
+    .about {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .bottom {
+        width: 200px;
+    }
+
+    .marry_go_round {
+        width: 200px;
+    }
+
+    .bottomsmallpic {
+        width: 200px;
+    }
+
+    .info {
+        gap: 16px;
+        width: 230px;
+        font-size: 9px;
+    }
+
+    .info h3 {
+        font-size: 10px;
+    }
+}
